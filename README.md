@@ -1,5 +1,5 @@
 # simple-content-locker-PHP
-A very simple way to lock your content using PHP, wanted to make it as a WP Plugin but got busy during process and just used plugin to insert it instead. The way it works it pretty self explanatory actually. It just reads the url and if that ends with "?valuekey" than 
+A very simple way to lock your content using PHP, wanted to make it as a WP Plugin but got busy during process and just used plugin to insert it instead. The way it works it pretty self explanatory actually. It just reads the url and if that ends with "?valuekey" than the page will load normaly otherwise it will just redirect to homepage 
 
 
 
@@ -21,4 +21,5 @@ echo "<script> location.href='/'; </script>";
 ```
 
 
-some minor modifications will be required if you wanna use link tracking tags.
+some minor modifications will be required if you wanna use link tracking tags
+
