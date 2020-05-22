@@ -18,7 +18,7 @@ echo "<script> location.href='/'; </script>";
          // Redirects back to homepage
     }
 ?>
-...
+```
 
 
 some minor modifications will be required if you wanna use link tracking tags.
