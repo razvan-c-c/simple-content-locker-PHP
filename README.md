@@ -3,7 +3,7 @@ A very simple way to lock your content using PHP, wanted to make it as a WP Plug
 
 
 
-'''php
+```php
 <?php
 $uri = $_SERVER['REQUEST_URI'];  
 $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
@@ -18,7 +18,7 @@ echo "<script> location.href='/'; </script>";
          // Redirects back to homepage
     }
 ?>
-'''
+...
 
 
 some minor modifications will be required if you wanna use link tracking tags.
